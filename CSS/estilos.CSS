@@ -4,21 +4,32 @@
    
    body {
     background-color:LIGHTSTEELBLUE;
-    max-width: 100%;
-    overflow-x: hidden;
-}
+   }
    header {
     background-color:lightblue;
     width:100%;
     height: 100px;
     text-align: center;
    }
-  .tabla1, .tabla2, .tabla4 {
-    width: 90%;
-    max-width: 900px;
-    margin: 1rem auto;
+   .tabla1{
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    top:1px;
+    position:relative;
+    text-align:center;
+     }
+.tabla2{
+    background-color:lightblue;
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    top:75px;
+    position:relative;
     text-align: center;
-}
+     }
 .tabla3{
     margin:auto;
     left: 1150px;
@@ -26,37 +37,46 @@
     top:45px;
     position:absolute;
      }
+     .tabla4{
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    text-align:center;
+    border:3px;
+    background-color:lavender;
+     }
    .img1{
        position: absolute;
        width:50px;
        top:0px;
        left:0px;
   }
-header .img2, header .img3, header .img4, header .img5, header .img6 {
-    position: relative;  
-    width: 70px;      
-    height: auto;       
+ .img2{
+       position: absolute;
+       width:60px;
+       left:30px;
+   }
+ .img3{
+       position: absolute;
+       width:66px;
+       left:195px;
+   }
+ .img4{
+       position: absolute;
+       width:73px;
+       left:350px;
+   }
+ .img5{
+       position: absolute;
+     width:77px;
+      left:550px;
 }
-header .img2 {
-    left: -20px; 
-}
-
-header .img3 {
-    left: -45px; 
-}
-
-header .img4 {
-    left: -77px;  
-}
-
-header .img5 {
-    left: -45px;  
-}
-
-header .img6 {
-    left: -5px;  
-}
-
+.img6{
+       position: absolute;
+       width:71px;
+     left:780px;
+   }
 .img7{
        position: absolute;
        width:350px;
@@ -110,16 +130,19 @@ header .img6 {
     top:420px;
     left:310px;
 }
-.formulario {
-        width: 90%;
-        max-width: 350px;
-        margin: 2rem auto;
-            background-color:thistle;
-    }
-  h1 {
-        font-size: 2rem;
-           text-align: center;
-    }
+.formulario{
+    position: absolute;
+    width:300px;
+    top:700px;
+    left:600px;
+    background-color:thistle;
+}
+   h1{
+   font-family:Monospace;
+   font-size: 43px;
+   text-align:center;
+   top:25px;
+   }
 h2{
      font-family: cursive;
     text-align: center;
@@ -128,7 +151,6 @@ h2{
     font-size:18px;
     background-color:lavender;
 }
-@media (max-width: 768px) {
    .linea1{
        Color:indianred;
    }
@@ -144,7 +166,7 @@ h2{
    .linea5{
        Color:indianred;
    }
-}
+   
    footer {
    background-color:cadetblue;
    position: sticky;
